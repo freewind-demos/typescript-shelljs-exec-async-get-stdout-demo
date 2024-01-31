@@ -3,7 +3,9 @@
     "start": "ts-node hello.ts"
   },
   "devDependencies": {
-    "@types/node": "20.11.10",
+    "@types/node": "20.11.13",
+    "@types/shelljs": "^0.8.15",
+    "shelljs": "^0.8.5",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
   }

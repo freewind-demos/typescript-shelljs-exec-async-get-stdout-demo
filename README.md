@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript Shelljs Exec Async Get "stdout" Demo
 ===========================
+
+对于以async形式运行的shelljs命令，需要用另一种on data的形式拿到并拼装stdout
 
 ```
 npm install
 npm start
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
