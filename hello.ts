@@ -1,6 +1,6 @@
 import shell from 'shelljs';
 
-export async function execAsync(cmd: string) {
+export async function execAsync(cmd: string): Promise<string> {
     console.log('$', cmd);
 
     const childProcess = shell.exec(cmd, { async: true });
